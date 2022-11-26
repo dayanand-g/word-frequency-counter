@@ -53,7 +53,10 @@ Once onClick function satisfies true then only the chart will display in front-e
 # Libraries
 Chart.js and react-chartjs-2 (To display a Histogram).
 
-# Above solution is hosted in Vercel "https://word-frequency-counter-alpha.vercel.app/".
+# Above solution is hosted in Vercel "https://word-frequency-counter-alpha.vercel.app/". <br>
+
+![{3BB969FA-31DD-4E03-ACB9-44BEA0DED727}](https://user-images.githubusercontent.com/89378073/204100478-1c094195-5324-4358-ae79-8ac90715f79e.png)
+
 
 
 
