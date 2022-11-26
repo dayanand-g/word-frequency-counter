@@ -3,7 +3,7 @@
 # Below instructions will execute only when you click the submit button (Button holds the onClick function)
 
 # Step 1
-DataFetch.js
+DataFetch.js (component)
 This file refer to fetch a data from link (https://www.terriblytinytales.com/test.txt). <br>
 Imported a useState and useEffect function to set a fetched data to variable called mainStr. <br>
 
@@ -29,7 +29,8 @@ Then I sliced the first top 20 words of an sorted array to get a top 20 most occ
 Then I returned the resArr to import the top 20 elements in another component called Barchart.Js.
 
 # Step 4
-In a component barchart.js the function DataFetch() will returns the top 20 words and it will stored in variable called resArr. <br>
+BarChart.js (component)
+In a component Barchart.js the function DataFetch() will returns the top 20 words and it will stored in variable called resArr. <br>
 Then I have created a for loop to seperate word and word-count by unpacking a 2d array (resArr). <br>
 Then I stored a X-axis values inside the variable called xValues. <br>
 And I stored a Y-axis values inside the variable called yValues. <br>
@@ -44,6 +45,13 @@ Once it returned a data={data} the histogram will display in a front-end. <br>
 I created a button and rendered it in App.js file. <br>
 And I kept a onClick function inside the button to display a chart. <br>
 Once onClick function satisfies true then only the chart will display in front-end. <br>
+
+# Components
+1. DataFetch.js <br>
+2. BarChart.js <br>
+
+# Libraries
+Chart.js and react-chartjs-2 (To display a Histogram).
 
 # Above solution is hosted in Vercel "https://word-frequency-counter-alpha.vercel.app/".
 
